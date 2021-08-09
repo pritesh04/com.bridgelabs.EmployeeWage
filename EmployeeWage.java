@@ -28,6 +28,7 @@ public class EmployeeWage {
 		int DailyWage= fullday*SalHour;
 		System.out.println("DailyWage is "+ DailyWage);
 		}
+			
 		
 		
 		
