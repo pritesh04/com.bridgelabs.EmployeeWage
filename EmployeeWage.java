@@ -29,6 +29,17 @@ public class EmployeeWage {
 		System.out.println("DailyWage is "+ DailyWage);
 		}
 			
+		int mn=0,mx=1;
+		int  choice = (int) (Math.random()*(mx-mn+1)+mn);
+		switch (choice) {
+		case 0 : int fullTime=8;
+		System.out.println("Fulltime wage is "+ fullTime*SalHour);
+		break;
+		case 1:int HalfTime=4;
+		System.out.println("Halftime wage is "+ HalfTime*SalHour);
+		break;
+		default : break;
+		}
 		
 		
 		
