@@ -23,6 +23,13 @@ public class EmployeeWage {
 			System.out.println("Employee Absent");
 		}
 		
+		if(flag==1)
+		{
+		int DailyWage= fullday*SalHour;
+		System.out.println("DailyWage is "+ DailyWage);
+		}
+		
+		
 		
 		
 		
