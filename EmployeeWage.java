@@ -41,6 +41,12 @@ public class EmployeeWage {
 
 		default : break;
 		}
+		//UC5
+		if(flag==1) {
+		int WageperMonth= fullday*20 * SalHour;
+		System.out.println("WageperMonth is " + WageperMonth);
+		}
+
 		
 		
 		
