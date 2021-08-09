@@ -38,6 +38,7 @@ public class EmployeeWage {
 		case 1:int HalfTime=4;
 		System.out.println("Halftime wage is "+ HalfTime*SalHour);
 		break;
+
 		default : break;
 		}
 		
